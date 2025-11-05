@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf) format(truetype);
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: end;
+}
+
+#dino{
+    display: flex;
+    align-items: end;
+}
+
+#dino img{
+    width: 219.80999755859375;
+    height: 245.0500030517578;
+    opacity: 1;
+}
+
+#robot img{
+    width: 170.47000122070312;
+    height: 212.8699951171875;
+    opacity: 1;
+}
+
+p{
+    color: #C5C5C5;
+}
+
+h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 96px;
+    line-height: 100%;
+    color: #EDEDED;
+    width: 693;
+    height: 110;
+    opacity: 1;
+    margin: 40px 0px 0px;
+}
+
+hr{
+    width: 719;
+    opacity: 1;
+    margin: 0px 20px;
+}
+
+#div-der p{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    width: 727;
+    height: 34;
+    opacity: 1;
+}
+
+#div-izq p{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+#div-izq{
+    background-color: #1F1F1F;
+    width: 404;
+    height: 212;
+    opacity: 1;
+    border-radius: 19px;
+}
+
+#div-der{
+    background-color: #1F1F1F;
+    width: 760;
+    height: 212;
+    opacity: 1;
+    border-radius: 19px;
+}
