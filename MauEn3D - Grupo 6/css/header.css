@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf) format(truetype);
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+header{
+    background-color: #242424;
+    align-items: end;
+}
+
+p{
+    color: #C5C5C5;
+}
+
+h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 96px;
+    line-height: 100%;
+    color: #EDEDED;
+    width: 693;
+    height: 110;
+    opacity: 1;
+    margin: 40px 0px 0px;
+}
+
+#antesDelNav{
+    background-color: #242424;
+    height: 50px;
+}
+
+nav{
+    background-color: black;
+    height: 60px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    height: 100%;
+}
+
+ul p{
+    font-size: 24px;
+    text-align: center;
+}
+
+ul img{
+    width: 56.07475662231445;
+    height: 43.047847747802734;
+    opacity: 1;
+    border-width: 1.5px;
+    margin-left: 50px;
+}
+
+#circulo-carrito{
+    background-color: #242424;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+#circulo-carrito img{
+    width: 34px;
+    height: 34px;
+    margin-top: 7px;
+    position: absolute;
+    left: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline white;  
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo img{
+    width: 1100px;
+    height: 225px;
+}
