@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../css/footer.css">
 <footer>
     <div id="dino">
         <img src="../img/game-icons--dinosaur-rex.png" alt="dinosaurio-icono">
