@@ -269,3 +269,43 @@ body{
   border-radius: 30px;
   font-size: 26px;
 }
+#cont-contactos{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  border: 2px solid rgba(189, 187, 187, 0.849);
+  border-radius: 30px;
+  height: 700px;
+}
+#cont-contactos img{
+  width: 160px;
+  height: 160px;
+}
+.parcela-contactos{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.icon-contactos{
+  width: auto;
+  margin: auto;
+}
+.texto-contactos{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+.titulo-red{
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  color: #C5C5C5;
+}
+.descripcion-red{
+  text-align: center;
+  font-size: 19px;
+  color: #C5C5C5;
+}
