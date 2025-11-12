@@ -16,8 +16,12 @@
             <img src="../img/pato3d.jpeg" alt="modelo 3d" id="modelo2">
         </div>
         <div id="centroTexto">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi fuga, dolore quos eveniet sunt nulla exercitationem, in maiores eaque vel distinctio esse veniam! Aspernatur consectetur delectus inventore ab sequi.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi fuga, dolore quos eveniet sunt nulla exercitationem, in maiores eaque vel distinctio esse veniam! Aspernatur consectetur delectus inventore ab sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eum consectetur nemo! Magni officiis ipsam temporibus laborum quibusdam nisi ipsum voluptas? Rem officiis mollitia architecto adipisci consectetur omnis ab soluta?</p>
         </div>
+    </div>
+    <div id="textoCentral">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere in, quidem repudiandae cumque nam at corporis rem id facilis consequatur consectetur necessitatibus odit est itaque, illum, eligendi eaque voluptatibus autem.
+        Illum sint tempora ex eligendi suscipit. Natus sint repellendus temporibus esse reprehenderit quae adipisci possimus magnam. Assumenda est exercitationem suscipit rem? Blanditiis illo vel quos earum distinctio repudiandae, quod quas.</p>
     </div>
     </div>
     <?php require_once "footer.php"?>

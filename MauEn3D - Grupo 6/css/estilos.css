@@ -229,28 +229,42 @@ body{
 #imagenesIndex{
   display: grid;
   width: 70%;
-  padding-top: 20px;
-  padding-left: 300px;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 4%;
 }
 #imagenesIndex img{
   position: absolute;
 }
 #modelo1{
   z-index:1;
-  padding-top: 80px;
-  padding-left: 80px;
+  padding-top: 4%;
+  padding-left: 4%;
 }
 #modelo2{
   z-index: 2;
 }
 #centroTexto{
   width: 100%;
-  margin-top: 150px;
+  margin:auto;
   font-size: 20px;
-  color: bisque;
+  color: rgb(156, 112, 58);
+}
+#centroTexto p{
+  margin: 2%;
+  padding: 4%;
+  border: 2px solid rgba(189, 187, 187, 0.849);
+  border-radius: 30px;
 }
 #tuIdea{
   text-align: center;
   font-size: 18px;
   color: bisque;
+}
+#textoCentral p{
+  margin: 2%;
+  padding: 4%;
+  border: 2px solid rgba(189, 187, 187, 0.849);
+  border-radius: 30px;
+  font-size: 26px;
 }
