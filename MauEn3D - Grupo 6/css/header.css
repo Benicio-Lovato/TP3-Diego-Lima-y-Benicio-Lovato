@@ -101,3 +101,97 @@ li{
     width: 1100px;
     height: 225px;
 }
+button{
+    border: none;
+    background-color: #24242400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 0px;
+    padding: 0px;
+    color: #C5C5C5;
+    font-size: 24px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#modal{
+    width: 28%;
+    background-color: rgb(85, 85, 85);
+    padding: 0px;
+    border: solid 6px rgb(103, 103, 103);
+    border-radius: 30px;
+}
+#izq-m{
+    width: 40%;
+}
+#der-m{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#centro-modal{
+    display: flex;
+}
+#candado{
+    margin-top: 13px;
+}
+.olvidaste{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.olvidaste img{
+    aspect-ratio: 1;
+    width: 30px;
+    height: 30px;
+}
+#t-inicio{
+    text-align: center;
+    background-color: #242424;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 43px;
+    color: #C5C5C5;
+    margin-bottom: 10px;
+}
+.input-sesion{
+    width: 80%;
+    height: 45px;
+    border-radius: 27px;
+    background-color: #24242400;
+    border: solid 1px white;
+}
+#ingresar{
+    width: 80%;
+    height: 45px;
+    border-radius: 27px;
+    background-color: #2d2d2d;
+    color: white;
+    border: solid 1px rgb(0, 0, 0);
+}
+#google{
+    width: 80%;
+    height: 45px;
+    border-radius: 27px;
+    background-color: #f9f5f5;
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(243, 238, 0);
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

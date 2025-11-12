@@ -1,4 +1,7 @@
-<link rel="stylesheet" href="../css/header.css">
+<head>
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/script.js" defer></script>
+</head>
 <header>
     <div id="antesDelNav">
 
@@ -9,8 +12,33 @@
             <li><img src="../img/material-symbols_home-outline-rounded.png" alt="inicio logo"><a href="index.php"><p>Inicio</p></a></li>
             <li><img src="../img/icon-park-outline_ad-product.png" alt="productos logo"><a href="productos.php"><p>Productos</p></a></li>
             <li><img src="../img/ic_baseline-phone.png" alt="contacto logo"><a href="contacto.php"><p>Contacto</p></a></li>
-            <li><img src="../img/material-symbols_login-rounded.png" alt="iniciar sesion logo"><a href="iniciar-sesion.php"><p>Iniciar Sesión</p></a></li>
+            <li><img src="../img/material-symbols_login-rounded.png" alt="iniciar sesion logo"><button id="btn-abrir-modal">iniciar sesion</button></li>
         </ul>
+
+
+    <dialog id="modal">
+        <p id="t-inicio">Inicio de sesión</p>
+        <div id="centro-modal">
+            <div id="izq-m">
+                <img src="../img/candado.png" alt="" id="candado">
+                <div class="olvidaste">
+                <img src="../img/olvidaste.png" alt=""><p>¿Olvidaste tu contraseña?</p>
+                </div>
+                <div class="olvidaste">
+                <img src="../img/soporte.png" alt=""><p>Contacta con nuestro soporte</p>
+                </div>
+            </div>
+            <div id="der-m">
+                <p>Email / Número de Telefono</p>
+                <input type="text" class="input-sesion">
+                <p>Contraseña</p>
+                <input type="text" class="input-sesion">
+                <button id="ingresar">Ingresar</button>
+                <button id="google"><img src="../img/google.png" alt=""> Inicia sesión con Google</button>
+            </div>
+        </div>
+        <button id="btn-cerrar-modal">cerrar modal</button>
+    </dialog>
     </nav>
 
     <div id="titulo">
