@@ -17,14 +17,14 @@ footer{
 }
 
 #dino img{
-    width: 219.80999755859375;
-    height: 245.0500030517578;
+    width: 219px;
+    height: 245px;
     opacity: 1;
 }
 
 #robot img{
-    width: 170.47000122070312;
-    height: 212.8699951171875;
+    width: 170px;
+    height: 212px;
     opacity: 1;
 }
 
@@ -46,7 +46,7 @@ h1{
 }
 
 hr{
-    width: 719;
+    width: 719px;
     opacity: 1;
     margin: 0px 20px;
 }
@@ -58,8 +58,8 @@ hr{
     font-size: 24px;
     line-height: 100%;
     text-align: center;
-    width: 727;
-    height: 34;
+    width: 727px;
+    height: 34px;
     opacity: 1;
 }
 
@@ -73,16 +73,16 @@ hr{
 
 #div-izq{
     background-color: #1F1F1F;
-    width: 404;
-    height: 212;
+    width: 404px;
+    height: 212px;
     opacity: 1;
     border-radius: 19px;
 }
 
 #div-der{
     background-color: #1F1F1F;
-    width: 760;
-    height: 212;
+    width: 760px;
+    height: 212px;
     opacity: 1;
     border-radius: 19px;
 }
@@ -94,8 +94,8 @@ ul{
 }
 
 ul img{
-    width: 56.07475662231445;
-    height: 43.047847747802734;
+    width: 56px;
+    height: 43px;
     opacity: 1;
     border-width: 1.5px;
     margin-left: 50px;
