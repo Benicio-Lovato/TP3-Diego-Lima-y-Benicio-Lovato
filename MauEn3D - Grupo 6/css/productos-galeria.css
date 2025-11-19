@@ -16,6 +16,10 @@ html{
    height: 100vh;
 }
 
+body{
+    background-image: url(../img/fondo-lineas.png);
+}
+
 h1{
    font-family: 'Inter';
    font-weight: 600;

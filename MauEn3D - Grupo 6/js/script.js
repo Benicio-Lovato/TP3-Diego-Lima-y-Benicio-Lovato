@@ -29,3 +29,41 @@ document.querySelectorAll('dialog').forEach(modal => {
     }
   });
 });
+
+//carrusel
+const images = document.querySelectorAll('.carrusel img');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+const indicadores = document.querySelectorAll('.indicadores span');
+let index = 0;
+
+function showImage(i) {
+  images.forEach(img => img.classList.remove('active'));
+  indicadores.forEach(dot => dot.classList.remove('active'));
+  images[i].classList.add('active');
+  indicadores[i].classList.add('active');
+}
+
+prev.addEventListener('click', () => {
+  index = (index - 1 + images.length) % images.length;
+  showImage(index);
+});
+
+next.addEventListener('click', () => {
+  index = (index + 1) % images.length;
+  showImage(index);
+});
+
+// Indicadores clickeables
+indicadores.forEach((dot, i) => {
+  dot.addEventListener('click', () => {
+    index = i;
+    showImage(index);
+  });
+});
+
+// Cambio automático cada 3 segundos
+setInterval(() => {
+  index = (index + 1) % images.length;
+  showImage(index);
+}, 3000);

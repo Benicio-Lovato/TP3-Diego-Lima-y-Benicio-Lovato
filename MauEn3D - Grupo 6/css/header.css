@@ -5,16 +5,22 @@
     font-weight: 100 900;
 }
 
+header html{
+    display: flex;
+    justify-content: center;
+}
+
 header{
     background-color: #242424;
     align-items: end;
+    width: 1200px;
 }
 
-p{
+header p{
     color: #C5C5C5;
 }
 
-h1{
+header h1{
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
@@ -32,32 +38,31 @@ h1{
     height: 50px;
 }
 
-nav{
+header nav{
     background-color: black;
     height: 60px;
 }
 
-ul{
+header ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-    height: 100%;
+  height: 100%;
 }
 
-ul p{
+header ul p{
     font-size: 24px;
     text-align: center;
 }
 
-ul img{
-    width: 56.07475662231445;
-    height: 43.047847747802734;
+header ul img{
+    width: 56px;
+    height: 43px;
     opacity: 1;
     border-width: 1.5px;
-    margin-left: 50px;
 }
 
 #circulo-carrito{
@@ -65,32 +70,32 @@ ul img{
     border-radius: 50%;
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #circulo-carrito img{
     width: 34px;
     height: 34px;
-    margin-top: 7px;
-    position: absolute;
-    left: 100px;
 }
 
-a{
+header a{
     text-decoration: none;
 }
 
-a:active{
+header a:active{
     text-decoration: underline white;  
 }
 
-li{
+header li{
     display: flex;
     align-items: center;
     gap: 10px;
     height: 70px;
 }
 
-button{
+header button{
     border: none;
     background-color: #24242400;
     margin-top: 24px;
@@ -108,18 +113,18 @@ button{
     font-family: 'Times New Roman', Times, serif;
     
 }
-#titulo{
+header #titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#titulo img{
-    width: 1100px;
+header #titulo img{
+    width: 883px;
     height: 225px;
 }
-#inicio-sesion::backdrop {
+header #inicio-sesion::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
 }
 

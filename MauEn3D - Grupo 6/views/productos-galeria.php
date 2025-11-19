@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/productos-galeria.css">
 </head>
 <body>
+    
+    <?php include './header.php'; ?>
     <main>
         <h1>Productos</h1>
 

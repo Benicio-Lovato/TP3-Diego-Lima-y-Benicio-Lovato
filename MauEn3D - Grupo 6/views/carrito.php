@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<?php include './header.php'; ?>
+
 <main>
    <h1>Carrito de Compras</h1>
 
