@@ -9,9 +9,9 @@
     <nav>
         <ul>
             <li><a href="carrito.php"><div id="circulo-carrito"><img src="../img/mdi_cart-outline.png" alt="carrito logo"></div></a></li>
-            <li><img src="../img/material-symbols_home-outline-rounded.png" alt="inicio logo"><a href="./index.php"><p>Inicio</p></a></li>
-            <li><img src="../img/icon-park-outline_ad-product.png" alt="productos logo"><a href="./productos-galeria.php"><p>Productos</p></a></li>
-            <li><img src="../img/ic_baseline-phone.png" alt="contacto logo"><a href="./contacto.php"><p>Contacto</p></a></li>
+            <li><img src="../img/material-symbols_home-outline-rounded.png" alt="inicio logo"><a href="../index.html"><p>Inicio</p></a></li>
+            <li><img src="../img/icon-park-outline_ad-product.png" alt="productos logo"><a href="./productos-galeria.html"><p>Productos</p></a></li>
+            <li><img src="../img/ic_baseline-phone.png" alt="contacto logo"><a href="./contacto.html"><p>Contacto</p></a></li>
             <li><img src="../img/material-symbols_login-rounded.png" alt="iniciar sesion logo"><button class="btn-abrir" data-modal="inicio-sesion">iniciar sesion</button></li>
         </ul>
 
@@ -20,7 +20,7 @@
             <button id="btn-cerrar"></button>
             <p id="t-inicio">Inicio de sesión</p>
             <div id="centro-modal">
-                <div id="izq-m">
+                <div class="izq-m">
                     <img src="../img/candado.png" alt="" id="candado">
                     <div class="olvidaste">
                     <img src="../img/olvidaste.png" alt=""><p>¿Olvidaste tu contraseña?</p>
@@ -29,7 +29,7 @@
                     <img src="../img/soporte.png" alt=""><p>Habla con soporte</p>
                     </div>
                 </div>
-                <div id="der-m">
+                <div class="der-m">
                     <form action=""></form>
                     <p class="titulo-input-modal">Email / Número de Telefono</p>
                     <input type="text" class="input-sesion">

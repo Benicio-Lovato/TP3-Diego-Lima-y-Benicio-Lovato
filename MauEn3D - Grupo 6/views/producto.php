@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producto - MauEn3D</title>
     <link rel="stylesheet" href="../css/producto.css">
-    
-
-    <main>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <button id="cre-deb" class="btn-abrir" data-modal="modal-de-producto"><img src="../img/visa-mastercard.jpg"
+                  alt="visa/mastercard logo">Crédito o Débito</button>
+    <dialog id="modal-de-producto">
+        <button id="btn-cerrar"></button>
+    <div id="contenedor-de-producto">
         <div id="izq">
 
             <div class="imagen">
@@ -39,7 +44,8 @@
             
                 <button class="carrito">Añadir al carrito</button>
         </div>
-    </main>
+    </div>
+    </dialog>
 
 </body>
 </html>

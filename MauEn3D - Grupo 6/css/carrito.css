@@ -138,22 +138,22 @@ main{
     width: 1100px;
     height: 225px;
 }
-#inicio-sesion::backdrop {
+#credito-o-debito::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
 }
 
-#inicio-sesion{
+#credito-o-debito{
     width: 29%;
     background-color: rgb(85, 85, 85);
     padding: 0px;
     border: solid 6px rgb(103, 103, 103);
     border-radius: 30px;
 }
-#izq-m{
+.izq-m{
     width: 40%;
     margin-left: 10px;
 }
-#der-m{
+.der-m{
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -162,25 +162,32 @@ main{
 #centro-modal{
     display: flex;
 }
-#candado,#tarjeta-de-credito{
+#candado{
     margin-top: 70px;
     width: 110%;
 }
-.olvidaste{
+.status{
     display: flex;
     width: 100%;
     align-items: center;
 }
-.olvidaste img{
+.status img{
     aspect-ratio: 1;
     width: 30px;
     height: 30px;
 }
-.olvidaste p{
+.status p{
     margin-top: 15px;
-    margin-bottom: 12px;
-    padding-bottom: 3px;
-    border-bottom: solid 1px rgb(255, 255, 255);
+    margin-bottom: 11px;
+    padding-bottom: 4px;
+    border-bottom: solid 0.5px rgb(255, 255, 255);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
 }
 #t-inicio{
     text-align: center;
@@ -208,7 +215,7 @@ main{
     padding-left: 15px;
 }
 .titulo-input-modal{
-    font-family: Inter;
+    font-family: "Segoe UI", sans-serif;
     font-weight: 700;
     font-style: Bold;
     font-size: 14px;
@@ -217,6 +224,9 @@ main{
     display: flex;
     justify-content: start;
     align-items: start;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 #ingresar{
     margin-top: 20px;
@@ -291,6 +301,195 @@ main{
     display: none;
 }
 #inicio-sesion a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+}
+#t-credito-debito{
+    text-align: center;
+    background-color:#3F2A039E;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 43px;
+    color: #C5C5C5;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.titulo-input-modal-2{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: #dedddd;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 85%;
+}
+
+#tarjeta-de-credito{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 110%;
+}
+#pagar{
+    margin-top: 20px;
+    width: 85%;
+    height: 50px;
+    border-radius: 27px;
+    font-weight: 700;
+    background-color: #3f3f3f;
+    color: white;
+    border: solid 1px rgb(0, 0, 0);
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#img-debito-o-credito{
+    width: 27px;
+    margin-right: 5px;
+}
+#img-debito-o-credito2{
+    width: 27px;
+    margin-right: 5px;
+}
+
+
+
+#mercado-pago::backdrop {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#mercado-pago{
+    width: 29%;
+    background-color: rgb(85, 85, 85);
+    padding: 0px;
+    border: solid 6px rgb(103, 103, 103);
+    border-radius: 30px;
+}
+.izq-m2{
+    width: 30%;
+    margin-left: 10px;
+}
+.der-m2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-qr-mercado-pago{
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+#escanee-el-codigo{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(237, 233, 233);
+}
+#t-mercado-pago{
+    text-align: center;
+    background-color:#60F4FF9E;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 43px;
+    color: #f6f6f6;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#telefono-de-mercado-pago{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 120%;
+}
+#t-efectivo{
+    text-align: center;
+    background-color:#0435089e;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 43px;
+    color: #f6f6f6;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+#efectivo::backdrop {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#efectivo{
+    width: 40%;
+    background-color: rgb(85, 85, 85);
+    padding: 0px;
+    border: solid 6px rgb(103, 103, 103);
+    border-radius: 30px;
+}
+.izq-m3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.der-m3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-input-modal-3{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dedddd;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 90%;
+}
+.input-sesion2{
+    width: 90%;
+    height: 45px;
+    border-radius: 27px;
+    background-color: #24242400;
+    border: solid 1px white;
+    outline: none;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    padding-left: 15px;
+}
+.centrar-input-modal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

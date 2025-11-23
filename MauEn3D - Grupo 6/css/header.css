@@ -5,22 +5,16 @@
     font-weight: 100 900;
 }
 
-header html{
-    display: flex;
-    justify-content: center;
-}
-
 header{
     background-color: #242424;
     align-items: end;
-    width: 1200px;
 }
 
-header p{
+p{
     color: #C5C5C5;
 }
 
-header h1{
+h1{
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
@@ -38,31 +32,32 @@ header h1{
     height: 50px;
 }
 
-header nav{
+nav{
     background-color: black;
     height: 60px;
 }
 
-header ul{
+ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 100%;
+    height: 100%;
 }
 
-header ul p{
+ul p{
     font-size: 24px;
     text-align: center;
 }
 
-header ul img{
-    width: 56px;
-    height: 43px;
+ul img{
+    width: 56.07475662231445;
+    height: 43.047847747802734;
     opacity: 1;
     border-width: 1.5px;
+    margin-left: 50px;
 }
 
 #circulo-carrito{
@@ -70,32 +65,32 @@ header ul img{
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #circulo-carrito img{
     width: 34px;
     height: 34px;
+    margin-top: 7px;
+    position: absolute;
+    left: 100px;
 }
 
-header a{
+a{
     text-decoration: none;
 }
 
-header a:active{
+a:active{
     text-decoration: underline white;  
 }
 
-header li{
+li{
     display: flex;
     align-items: center;
     gap: 10px;
     height: 70px;
 }
 
-header button{
+button{
     border: none;
     background-color: #24242400;
     margin-top: 24px;
@@ -111,20 +106,20 @@ header button{
     margin-inline-end: 0px;
     unicode-bidi: isolate;
     font-family: 'Times New Roman', Times, serif;
-    
+    cursor: pointer;
 }
-header #titulo{
+#titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-header #titulo img{
-    width: 883px;
+#titulo img{
+    width: 1100px;
     height: 225px;
 }
-header #inicio-sesion::backdrop {
+#inicio-sesion::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
 }
 
@@ -135,11 +130,11 @@ header #inicio-sesion::backdrop {
     border: solid 6px rgb(103, 103, 103);
     border-radius: 30px;
 }
-#izq-m{
+.izq-m{
     width: 40%;
     margin-left: 10px;
 }
-#der-m{
+.der-m{
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -194,7 +189,7 @@ header #inicio-sesion::backdrop {
     padding-left: 15px;
 }
 .titulo-input-modal{
-    font-family: Inter;
+    font-family: "Segoe UI", sans-serif;
     font-weight: 700;
     font-style: Bold;
     font-size: 14px;
@@ -203,6 +198,10 @@ header #inicio-sesion::backdrop {
     display: flex;
     justify-content: start;
     align-items: start;
+    color: #dedddd;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 78%;
 }
 #ingresar{
     margin-top: 20px;
