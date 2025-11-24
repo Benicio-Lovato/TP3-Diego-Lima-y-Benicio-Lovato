@@ -10,69 +10,67 @@ header{
     align-items: end;
 }
 
-p{
+header p{
     color: #C5C5C5;
+    margin: 0px;
 }
 
-h1{
+header h1{
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 96px;
+    font-size: 28.8px;   /* 96 → 28.8 */
     line-height: 100%;
     color: #EDEDED;
-    width: 693;
-    height: 110;
+    width: 207.9px;      /* 693 → 207.9 */
+    height: 33px;        /* 110 → 33 */
     opacity: 1;
-    margin: 40px 0px 0px;
+    margin: 12px 0px 0px; /* 40 → 12 */
 }
 
 #antesDelNav{
     background-color: #242424;
-    height: 50px;
+    height: 15px;        /* 50 → 15 */
 }
 
 nav{
     background-color: black;
-    height: 60px;
+    height: 18px;        /* 60 → 18 */
 }
 
-ul{
+header ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-    height: 100%;
+  height: 100%;
 }
 
-ul p{
-    font-size: 24px;
+header ul p{
+    font-size: 7px;  
     text-align: center;
 }
 
-ul img{
-    width: 56.07475662231445;
-    height: 43.047847747802734;
-    opacity: 1;
-    border-width: 1.5px;
-    margin-left: 50px;
+header ul img{
+    width: 16px;    
+    height: 12px;    
 }
 
 #circulo-carrito{
     background-color: #242424;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 13px;  
+    height: 13px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #circulo-carrito img{
-    width: 34px;
-    height: 34px;
-    margin-top: 7px;
-    position: absolute;
-    left: 100px;
+    width: 10px;   
+    height: 10px;     
 }
 
 a{
@@ -80,34 +78,29 @@ a{
 }
 
 a:active{
-    text-decoration: underline white;  
+    text-decoration: underline white;
 }
 
-li{
+header li{
     display: flex;
     align-items: center;
-    gap: 10px;
-    height: 70px;
+    gap: 3px;         
+    height: 21px;     
 }
 
 button{
     border: none;
     background-color: #24242400;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    border: 0px;
+    margin-top: 7px;     
+    margin-bottom: 7px; 
     padding: 0px;
     color: #C5C5C5;
-    font-size: 24px;
+    font-size: 7px;    
     text-align: center;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
 }
+
 #titulo{
     display: flex;
     flex-direction: column;
@@ -116,9 +109,10 @@ button{
 }
 
 #titulo img{
-    width: 1100px;
-    height: 225px;
+    width: 330px;  
+    height: 67px;   
 }
+
 #inicio-sesion::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
 }
@@ -127,154 +121,145 @@ button{
     width: 29%;
     background-color: rgb(85, 85, 85);
     padding: 0px;
-    border: solid 6px rgb(103, 103, 103);
-    border-radius: 30px;
+    border: solid 2px rgb(103, 103, 103); 
+    border-radius: 9px;                    
 }
+
 .izq-m{
     width: 40%;
-    margin-left: 10px;
+    margin-left: 3px;   
 }
+
 .der-m{
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #centro-modal{
     display: flex;
 }
+
 #candado{
-    margin-top: 70px;
-    width: 110%;
+    margin-top: 21px;    
+    width: 33%;           
 }
+
 .olvidaste{
     display: flex;
     width: 100%;
     align-items: center;
 }
+
 .olvidaste img{
     aspect-ratio: 1;
-    width: 30px;
-    height: 30px;
+    width: 9px;           
+    height: 9px;          
 }
+
 .olvidaste-p{
-    margin-top: 15px;
-    margin-bottom: 12px;
-    padding-bottom: 3px;
-    border-bottom: solid 1px rgb(255, 255, 255);
+    margin-top: 4px;    
+    margin-bottom: 4px;  
+    padding-bottom: 1px;  
+    border-bottom: solid 0.3px rgb(255, 255, 255);
 }
+
 #t-inicio{
     text-align: center;
     background-color: #242424;
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 43px;
+    font-size: 13px;    
     color: #C5C5C5;
-    margin-top: 30px;
+    margin-top: 9px;      
     margin-bottom: 0px;
 }
+
 .input-sesion{
     width: 85%;
-    height: 45px;
-    border-radius: 27px;
+    height: 13px;      
+    border-radius: 8px;  
     background-color: #24242400;
-    border: solid 1px white;
+    border: solid 1px white;  
     outline: none;
-
-    color: rgb(27, 27, 27);
-    font-family: "Segoe UI", sans-serif;
-    font-weight: 700;
-    font-style: Bold;
-    padding-left: 15px;
+    padding-left: 4px;   
 }
+
 .titulo-input-modal{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
     font-style: Bold;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    color: #dedddd;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    font-size: 4px;       
+    margin-top: 3px;      
+    margin-bottom: 3px;   
     width: 78%;
 }
+
 #ingresar{
-    margin-top: 20px;
+    margin-top: 6px;        
     width: 85%;
-    height: 45px;
-    border-radius: 27px;
+    height: 13px;         
+    border-radius: 8px;   
     font-weight: 700;
     background-color: #3f3f3f;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
-    font-family: "Segoe UI", sans-serif;
+    border: solid 1px rgb(0, 0, 0); 
 }
+
 #google{
     width: 68%;
-    height: 40px;
-    border-radius: 27px;
+    height: 12px;          
+    border-radius: 8px;  
     margin-top: 0px;
     background-color: #f9f5f5;
     color: rgb(0, 0, 0);
     font-weight: 700;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 4px;      
     display: flex;
     align-items: center;
-    text-align: center;
-    padding-left: 3%;
-    border: 1px solid gold;
+    padding-left: 1%;
+    border: 1px solid gold; 
 }
+
 #google img{
-    margin-right: 3px;
+    margin-right: 1px;    
 }
+
 #Inicia-sesion{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 4px;     
     color: #242424;
-
 }
+
 #no-tienes-cuenta{
     font-weight: 700;
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 4px;      
     text-align: center;
-    font-family: "Segoe UI", sans-serif;
-    color: #EDEDED;
-    margin-bottom: 7px;
-    margin-top: 5px;
+    margin-bottom: 2px;   
+    margin-top: 2px;     
 }
+
 #registrarse-boton{
-    margin-bottom: 20px;
+    margin-bottom: 6px;   
     margin-top: 0px;
-    width: 60%;
-    height: 45px;
-    border-radius: 27px;
+    width: 18%;            
+    height: 13.5px;        
+    border-radius: 8px;
     background-color: #2d2d2d17;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 0.3px rgb(0, 0, 0);
     font-family: "Segoe UI", sans-serif;
     font-weight: 600;
-    font-style: Bold;
-    font-size: 24px;
-    line-height: 100%;
-    text-align: center;
+    font-size: 7px;    
 }
+
 #btn-cerrar{
     display: none;
 }
+
 #inicio-sesion a {
   color: inherit;
   text-decoration: none;

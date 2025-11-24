@@ -5,15 +5,15 @@
 }
 
 html{
-   background-image: url(../img/fondo-lineas.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
+    background-image: url(../img/fondo-lineas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 body{
@@ -21,56 +21,56 @@ body{
 }
 
 h1{
-   font-family: 'Inter';
-   font-weight: 600;
-   font-size: 36px;
-   line-height: 100%;
-   text-align: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 100%;
+    text-align: center;
 }
 
 main{
-   width: 1200px;
-   height: 1295px;
-   font-family: 'Inter';
-   font-weight: 600;
-   font-size: 40px;
-   line-height: 100%;
-   text-align: center;
-   background-color: #242424;;
-   color: #C5C5C5;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    width: 360px;
+    height: 389px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    background-color: #242424;
+    color: #C5C5C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .galeria{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 20px;
-    width: 1000px;
-    margin-top: 30px;
+    gap: 6px;
+    width: 300px;
+    margin-top: 9px;
 }
 
 .producto img{
-    width: 381px;
-    height: 420px;
-    border-radius: 30px;
+    width: 114px;
+    height: 126px;
+    border-radius: 9px;
     cursor: pointer;
 }
 
 h2{
     font-family: Inter;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 12px;
     line-height: 100%;
     text-align: center;
 }
 
 button{
-    width: 43px;
-    height: 74px;
+    width: 13px;
+    height: 22px;
     border: none;
     background: none;
     cursor: pointer;
@@ -79,32 +79,25 @@ button{
 }
 
 .imagen{
-    width: 510px;
-    height: 410px;
+    width: 153px;
+    height: 123px;
     opacity: 1;
-    border-radius: 30px;
-    border-width: 1px;
+    border-radius: 9px;
+    border-width: 0.3px;
 }
 
 .imagen img{
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 9px;
 }
 
-/* h1{
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 40px;
-    text-align: center;
-} */
-
 .precio{
-    width: 198px;
-    height: 117px;
+    width: 59px;
+    height: 35px;
     opacity: 1;
-    border-radius: 28px;
-    border-width: 1px;
+    border-radius: 8px;
+    border-width: 0.3px;
     background-color: #656565;
     display: flex;
     justify-content: center;
@@ -114,22 +107,22 @@ button{
 .precio span{
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 32px;
+    font-size: 10px;
 }
 
 .boton{
     display: flex;
-    gap: 20px;
+    gap: 6px;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .contador{
-    width: 198px;
-    height: 79px;
+    width: 59px;
+    height: 24px;
     opacity: 1;
-    border-radius: 28px;
-    border-width: 1px;
+    border-radius: 8px;
+    border-width: 0.3px;
     background-color: #656565;
     display: flex;
     align-items: center;
@@ -137,12 +130,12 @@ button{
 }
 
 .contador button{
-    width: 60px;
-    height: 60px;
+    width: 18px;
+    height: 18px;
     background-color: #656565;
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 48px;
+    font-size: 14px;
     color: #ffffff;
     border: none;
     cursor: pointer;
@@ -153,65 +146,69 @@ button{
 .contador span{
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 32px;
-    margin: 0 20px;
+    font-size: 10px;
+    margin: 0 6px;
 }
 
 .descripcion{
-    width: 320px;
-    height: 553px;
+    width: 96px;
+    height: 166px;
     opacity: 1;
-    border-radius: 26px;
-    border-width: 1px;
+    border-radius: 8px;
+    border-width: 0.3px;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 6px;
     overflow-y: auto;
     border: 1px solid #C5C5C5;
     text-align: center;
 }
 
 .carrito{
-    width: 320px;
-    height: 125px;
+    width: 96px;
+    height: 38px;
     opacity: 1;
-    border-radius: 28px;
-    border-width: 1px;
+    border-radius: 8px;
+    border-width: 0.3px;
     background-color: #AAD0B4;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 36px;
+    font-size: 11px;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #izq{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 9px;
 }
 
 #der{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 6px;
 }
+
 #contenedor-de-producto{
     opacity: 1;
     background-color: #272727;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     color: #C5C5C5;
-    padding: 10px;
-    padding-top: 18px;
+    padding: 3px;
+    padding-top: 5px;
 }
-#modal-de-producto1,#modal-de-producto2,#modal-de-producto3,#modal-de-producto4{
+
+#modal-de-producto1,
+#modal-de-producto2,
+#modal-de-producto3,
+#modal-de-producto4{
     width: 50%;
     background-color: rgb(85, 85, 85);
     padding: 0px;
-    border-radius: 30px;
+    border-radius: 9px;
+    max-width: 275px;
 }
-

@@ -19,25 +19,25 @@ html{
 h1{
    font-family: 'Inter';
    font-weight: 600;
-   font-size: 36px;
+   font-size: 11px;
    line-height: 100%;
    text-align: center;
 }
 
 h2{
-   text-decoration: underline 2px;
-   text-underline-offset: 10px
+   text-decoration: underline 1px;
+   text-underline-offset: 3px;
 }
 
 main{
-   width: 1200px;
-   height: 1295px;
+   width: 360px;
+   height: 389px;
    font-family: 'Inter';
    font-weight: 600;
-   font-size: 40px;
+   font-size: 12px;
    line-height: 100%;
    text-align: center;
-   background-color: #242424;;
+   background-color: #242424;
    color: #C5C5C5;
    display: flex;
    flex-direction: column;
@@ -46,9 +46,9 @@ main{
 }
 
 .productos{
-   width: 554px;
-   height: 1122px;
-   border-radius: 30px;
+   width: 166px;
+   height: 337px;
+   border-radius: 9px;
    background-color: #111111;
    display: flex;
    flex-direction: column;
@@ -67,17 +67,17 @@ main{
    display: flex;
    justify-content: space-around;
    align-items: center;
-   width: 1129px;
-   height: 1154px;
-   border-radius: 26px;
+   width: 339px;
+   height: 346px;
+   border-radius: 8px;
    border: 1px #FFFFFF solid;
    padding: 1%;
 }
 
 .precio{
-   width: 283px;
-   height: 107px;
-   border-radius: 26px;
+   width: 85px;
+   height: 32px;
+   border-radius: 8px;
    background-color: #D4D4D4;
    color: #003D02;
    display: flex;
@@ -86,35 +86,41 @@ main{
 }
 
 .medios{
-   height: 1154px;
-   margin-top: 30px;
+   height: 346px;
+   margin-top: 9px;
    display: flex;
    flex-direction: column;
-   gap: 100px;
+   gap: 30px;
 }
 
 .medios button{
-   width: 460px;
-   height: 92px;
-   border-radius: 26px;
-   border: 7px solid;
-   font-size: 36px;
+   width: 138px;
+   height: 28px;
+   border-radius: 8px;
+   border: 2px solid;
+   font-size: 11px;
    font-family: 'Inter';
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   gap: 50px;
+   gap: 15px;
    cursor: pointer;
 }
 
 #cre-deb img{
-   width: 76px;
-   height: 76px;
-   border-radius: 20px;
+   width: 23px;
+   height: 23px;
+   border-radius: 6px;
 }
 
 #mp{
    border-color: #3BBEC3;
+}
+
+#mp img{
+   width: 23px;
+   height: 23px;
+   border-radius: 6px;
 }
 
 #cre-deb{
@@ -125,7 +131,11 @@ main{
    border-color: #003706;
 }
 
-/* nuevo */
+#efe img{
+   width: 23px;
+   height: 23px;
+   border-radius: 6px;
+}
 
 #titulo{
     display: flex;
@@ -135,9 +145,10 @@ main{
 }
 
 #titulo img{
-    width: 1100px;
-    height: 225px;
+    width: 330px;
+    height: 68px;
 }
+
 #credito-o-debito::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
 }
@@ -146,225 +157,214 @@ main{
     width: 29%;
     background-color: rgb(85, 85, 85);
     padding: 0px;
-    border: solid 6px rgb(103, 103, 103);
-    border-radius: 30px;
+    border: solid 2px rgb(103, 103, 103);
+    border-radius: 9px;
 }
+
 .izq-m{
     width: 40%;
-    margin-left: 10px;
+    margin-left: 3px;
 }
+
 .der-m{
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #centro-modal{
     display: flex;
 }
+
 #candado{
-    margin-top: 70px;
+    margin-top: 21px;
     width: 110%;
 }
+
 .status{
     display: flex;
     width: 100%;
     align-items: center;
 }
+
 .status img{
     aspect-ratio: 1;
-    width: 30px;
-    height: 30px;
+    width: 9px;
+    height: 9px;
 }
+
 .status p{
-    margin-top: 15px;
-    margin-bottom: 11px;
-    padding-bottom: 4px;
-    border-bottom: solid 0.5px rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+    border-bottom: solid 0.5px rgb(255,255,255);
     font-weight: 700;
-    font-style: Bold;
-    font-size: 15px;
+    font-size: 5px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: white;
     font-family: "Segoe UI", sans-serif;
 }
+
 #t-inicio{
     text-align: center;
     background-color: #242424;
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 43px;
+    font-size: 13px;
     color: #C5C5C5;
-    margin-top: 30px;
+    margin-top: 9px;
     margin-bottom: 0px;
 }
+
 .input-sesion{
     width: 85%;
-    height: 45px;
-    border-radius: 27px;
+    height: 14px;
+    border-radius: 8px;
     background-color: #24242400;
     border: solid 1px white;
     outline: none;
-
-    color: rgb(27, 27, 27);
+    color: rgb(27,27,27);
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    padding-left: 15px;
+    padding-left: 5px;
 }
+
 .titulo-input-modal{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 14px;
+    font-size: 4px;
     line-height: 100%;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: start;
-    align-items: start;
     color: white;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
+
 #ingresar{
-    margin-top: 20px;
+    margin-top: 6px;
     width: 85%;
-    height: 45px;
-    border-radius: 27px;
+    height: 14px;
+    border-radius: 8px;
     font-weight: 700;
     background-color: #3f3f3f;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 1px black;
     font-family: "Segoe UI", sans-serif;
 }
+
 #google{
     width: 68%;
-    height: 40px;
-    border-radius: 27px;
-    margin-top: 0px;
+    height: 12px;
+    border-radius: 8px;
     background-color: #f9f5f5;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 5px;
     display: flex;
     align-items: center;
-    text-align: center;
-    padding-left: 3%;
+    padding-left: 1%;
     border: 1px solid gold;
 }
+
 #google img{
-    margin-right: 3px;
+    margin-right: 1px;
 }
+
 #Inicia-sesion{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 15px;
+    font-size: 5px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #242424;
-
 }
+
 #no-tienes-cuenta{
     font-weight: 700;
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 4px;
     text-align: center;
     font-family: "Segoe UI", sans-serif;
     color: #EDEDED;
-    margin-bottom: 7px;
-    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
+
 #registrarse-boton{
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 6px;
     width: 60%;
-    height: 45px;
-    border-radius: 27px;
+    height: 14px;
+    border-radius: 8px;
     background-color: #2d2d2d17;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 1px black;
     font-family: "Segoe UI", sans-serif;
     font-weight: 600;
-    font-style: Bold;
-    font-size: 24px;
-    line-height: 100%;
+    font-size: 7px;
     text-align: center;
 }
+
 #btn-cerrar{
     display: none;
 }
+
 #inicio-sesion a {
     color: inherit;
     text-decoration: none;
 }
+
 #t-credito-debito{
     text-align: center;
     background-color:#3F2A039E;
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 43px;
+    font-size: 13px;
     color: #C5C5C5;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 9px;
+    margin-bottom: 3px;
 }
+
 .titulo-input-modal-2{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    color: #dedddd;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    font-size: 4px;
     width: 85%;
+    color: #dedddd;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 #tarjeta-de-credito{
-    margin-top: 70px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-top: 21px;
+    margin-bottom: 3px;
+    margin-right: 3px;
     width: 110%;
 }
+
 #pagar{
-    margin-top: 20px;
+    margin-top: 6px;
     width: 85%;
-    height: 50px;
-    border-radius: 27px;
+    height: 15px;
+    border-radius: 8px;
     font-weight: 700;
     background-color: #3f3f3f;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 1px black;
     font-family: "Segoe UI", sans-serif;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 22px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 7px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
+
 #img-debito-o-credito{
-    width: 27px;
-    margin-right: 5px;
+    width: 8px;
+    margin-right: 2px;
 }
+
 #img-debito-o-credito2{
-    width: 27px;
-    margin-right: 5px;
+    width: 8px;
+    margin-right: 2px;
 }
-
-
 
 #mercado-pago::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
@@ -374,66 +374,66 @@ main{
     width: 29%;
     background-color: rgb(85, 85, 85);
     padding: 0px;
-    border: solid 6px rgb(103, 103, 103);
-    border-radius: 30px;
+    border: solid 2px rgb(103,103,103);
+    border-radius: 9px;
 }
+
 .izq-m2{
     width: 30%;
-    margin-left: 10px;
+    margin-left: 3px;
 }
+
 .der-m2{
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #img-qr-mercado-pago{
     width: 80%;
-    margin-bottom: 30px;
-    border-radius: 20px;
+    margin-bottom: 9px;
+    border-radius: 6px;
 }
+
 #escanee-el-codigo{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 7px;
     text-align: center;
-    vertical-align: middle;
-    color: rgb(237, 233, 233);
+    color: rgb(237,233,233);
 }
+
 #t-mercado-pago{
     text-align: center;
     background-color:#60F4FF9E;
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 43px;
+    font-size: 13px;
     color: #f6f6f6;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 9px;
+    margin-bottom: 3px;
 }
 
 #telefono-de-mercado-pago{
-    margin-top: 70px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-top: 21px;
+    margin-bottom: 3px;
+    margin-right: 3px;
     width: 120%;
 }
+
 #t-efectivo{
     text-align: center;
     background-color:#0435089e;
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 43px;
+    font-size: 13px;
     color: #f6f6f6;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 9px;
+    margin-bottom: 3px;
 }
-
-
 
 #efectivo::backdrop {
     background-color: rgba(0, 0, 0, 0.397);
@@ -441,52 +441,50 @@ main{
 
 #efectivo{
     width: 40%;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(85,85,85);
     padding: 0px;
-    border: solid 6px rgb(103, 103, 103);
-    border-radius: 30px;
+    border: solid 2px rgb(103,103,103);
+    border-radius: 9px;
 }
+
 .izq-m3{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .der-m3{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .titulo-input-modal-3{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 4px;
     color: #dedddd;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     width: 90%;
 }
+
 .input-sesion2{
     width: 90%;
-    height: 45px;
-    border-radius: 27px;
+    height: 14px;
+    border-radius: 8px;
     background-color: #24242400;
     border: solid 1px white;
     outline: none;
     text-align: center;
-    color: rgb(27, 27, 27);
+    color: rgb(27,27,27);
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-style: Bold;
-    padding-left: 15px;
+    padding-left: 5px;
 }
+
 .centrar-input-modal{
     display: flex;
     justify-content: center;

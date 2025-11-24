@@ -4,107 +4,109 @@
     font-style: italic;
     font-weight: 100 900;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
     align-items: end;
-    width: 1905px;
+    width: 360px;
 }
 
-#dino{
+#dino {
     display: flex;
     align-items: end;
 }
 
-#dino img{
-    width: 219px;
-    height: 245px;
+#dino img {
+    width: 42px;
+    height: 46px;
     opacity: 1;
 }
 
-#robot img{
-    width: 170px;
-    height: 212px;
+#robot img {
+    width: 32px;
+    height: 40px;
     opacity: 1;
 }
 
-p{
+footer p {
     color: #C5C5C5;
 }
 
-h1{
+footer h1 {
     font-family: 'Inter';
     font-weight: 700;
-    font-style: Italic;
-    font-size: 96px;
+    font-style: italic;
+    font-size: 18px;
     line-height: 100%;
     color: #EDEDED;
-    width: 693;
-    height: 110;
+    width: 131px;
+    height: 20px;
     opacity: 1;
-    margin: 40px 0px 0px;
+    margin: 8px 0 0;
 }
 
-hr{
-    width: 719px;
+hr {
+    width: 136px;
     opacity: 1;
-    margin: 0px 20px;
+    margin: 0px 4px;
 }
 
-#div-der p{
+#div-der p {
     font-family: 'Inter';
     font-weight: 600;
     font-style: bold;
-    font-size: 24px;
+    font-size: 5px;
     line-height: 100%;
     text-align: center;
-    width: 727px;
-    height: 34px;
+    width: 137px;
+    height: 6px;
     opacity: 1;
 }
 
-#div-izq p{
+#div-izq p {
     font-family: 'Inter';
     font-weight: 600;
-    font-style: Bold;
-    font-size: 32px;
+    font-style: bold;
+    font-size: 6px;
     line-height: 100%;
+    margin: 0px;
 }
 
-#div-izq{
+#div-izq {
     background-color: #1F1F1F;
-    width: 404px;
-    height: 212px;
+    width: 76px;
+    height: 40px;
     opacity: 1;
-    border-radius: 19px;
+    border-radius: 4px;
 }
 
-#div-der{
+#div-der {
     background-color: #1F1F1F;
-    width: 760px;
-    height: 212px;
+    width: 144px;
+    height: 40px;
     opacity: 1;
-    border-radius: 19px;
+    border-radius: 4px;
 }
 
-ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-ul img{
-    width: 56px;
-    height: 43px;
+footer ul img {
+    width: 10px;
+    height: 8px;
     opacity: 1;
-    border-width: 1.5px;
-    margin-left: 50px;
+    border-width: 1px;
+    margin-left: 9px;
 }
 
-li{
+footer li {
     display: flex;
     align-items: center;
-    gap: 10px;
-    height: 70px;
+    gap: 2px;
+    height: 13px;
 }

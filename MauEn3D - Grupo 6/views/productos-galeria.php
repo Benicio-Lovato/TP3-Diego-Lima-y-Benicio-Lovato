@@ -183,5 +183,7 @@
             </div>
         </div>
     </dialog>
+
+    <?php include './footer.php'; ?>
 </body>
 </html>
