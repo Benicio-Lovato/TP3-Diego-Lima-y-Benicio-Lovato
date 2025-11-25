@@ -32,9 +32,10 @@ if (isset($_GET['registration_success'])) {
 
         <div class="arriba">
             <div class="carrusel">
-                <img src="../img/lewzrhcy.jpg" class="active" alt="Imagen 1">
-                <img src="../img/pato3d.jpeg" alt="Imagen 2">
-                <img src="../img/instagram.png" alt="Imagen 3">
+                <a href="./productos-galeria.php"><img src="../img/lewzrhcy.jpg" class="active" alt="Imagen 1"></a>
+                <a href="./productos-galeria.php"><img src="../img/pato3d.jpeg" alt="Imagen 2"></a>
+                <a href="./productos-galeria.php"><img src="../img/gizmo.png" alt="Imagen 3"></a>
+
 
                 <button class="boton prev">&#10094;</button>
                 <button class="boton next">&#10095;</button>

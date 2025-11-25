@@ -20,7 +20,7 @@
 
             <div class="producto btn-abrir" data-modal="modal-de-producto2" id="producto2">
                 <img src="../img/lewzrhcy.jpg" alt="Producto">
-                <h2>Lewzrhcy</h2>
+                <h2>Base de Defensa</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto3" id="producto3">
@@ -49,7 +49,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$9000</span>
                     </div>
 
                     <div class="contador">
@@ -64,7 +64,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este modelo 3D recrea a Scooby-Doo con un estilo renovado y encantador, vestido con un buzo celeste que le da un toque moderno y divertido. Su expresión amistosa y los detalles cuidadosamente modelados lo convierten en una pieza ideal para coleccionistas, decoración, impresión 3D o proyectos de animación. La combinación entre el clásico personaje y la ropa casual crea una versión única y perfecta para fans de todas las edades.</p>
                 </div>
 
                 
@@ -82,11 +82,11 @@
                     <img src="../img/lewzrhcy.jpg" alt="Producto">
                 </div>
 
-                <h1>Lewzrhcy</h1>
+                <h1>Base de Defensa</h1>
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$5000</span>
                     </div>
 
                     <div class="contador">
@@ -101,7 +101,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este modelo 3D representa una base de defensa de torre baja fabricada en polietileno, diseñada para ofrecer resistencia, estabilidad y durabilidad. Su estructura compacta y reforzada permite soportar cargas y condiciones exigentes, mientras que su geometría optimizada facilita la integración con otros componentes o módulos defensivos. Ideal para proyectos industriales, diseños funcionales, prototipado, simulaciones o impresión 3D con fines estructurales.</p>
                 </div>
 
                 
@@ -123,7 +123,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$5500</span>
                     </div>
 
                     <div class="contador">
@@ -138,7 +138,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este encantador diseño 3D de pato navideño combina humor y espíritu festivo en una pieza única. Con su gorrito de Navidad, detalles cuidados y una expresión simpática, es ideal para decoraciones, regalos personalizados, impresión 3D o coleccionistas que buscan algo tierno y temático. Su estilo alegre y colorido lo convierte en el complemento perfecto para la temporada navideña.</p>
                 </div>
 
                 
@@ -160,7 +160,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$4500</span>
                     </div>
 
                     <div class="contador">
@@ -175,7 +175,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este diseño 3D de Sonic the Hedgehog captura a la perfección la velocidad, energía y actitud del icónico héroe azul. Modelado con detalles nítidos y una estética fiel al personaje original, es ideal para impresiones 3D, proyectos de animación, coleccionistas o como pieza decorativa única. Su postura dinámica y su acabado estilizado aseguran un resultado visual impactante en cualquier formato.</p>
                 </div>
 
                 

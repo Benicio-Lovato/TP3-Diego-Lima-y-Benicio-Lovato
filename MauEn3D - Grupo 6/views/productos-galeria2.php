@@ -49,7 +49,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$8000</span>
                     </div>
 
                     <div class="contador">
@@ -64,7 +64,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este diseño 3D captura a la perfección la esencia inquietante de Chucky, el icónico muñeco diabólico del cine de terror. Con detalles precisos en su rostro, su ropa clásica y su expresión perturbadora, este modelo ofrece una estética realista y fiel al personaje original. Es perfecto para coleccionistas, proyectos temáticos de terror, decoración, impresiones 3D o como pieza destacada en cualquier contenido relacionado con el género horror.</p>
                 </div>
 
                 
@@ -86,7 +86,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$5000</span>
                     </div>
 
                     <div class="contador">
@@ -101,7 +101,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este adorable modelo 3D muestra a un gato con capucha, combinando ternura y estilo urbano en una pieza única. El diseño destaca por sus rasgos expresivos, la textura suave del abrigo y una pose que transmite personalidad y simpatía. Ideal para decoración, coleccionistas, impresión 3D, proyectos de animación o contenido estético moderno.</p>
                 </div>
 
                 
@@ -123,7 +123,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$4000</span>
                     </div>
 
                     <div class="contador">
@@ -138,7 +138,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este modelo 3D recrea a Gizmo, el querido Mogwai de la saga Gremlins, con un nivel de detalle que resalta su ternura característica. Sus grandes ojos expresivos, orejas suaves y postura amigable hacen que sea una pieza ideal para coleccionistas, fanáticos del cine, impresión 3D, decoración temática o proyectos de animación.</p>
                 </div>
 
                 
@@ -160,7 +160,7 @@
 
                 <div class="boton">
                     <div class="precio">
-                        <span>Precio</span>
+                        <span>$3500</span>
                     </div>
 
                     <div class="contador">
@@ -175,7 +175,7 @@
 
                 <div class="descripcion">
                     <h2>Descripción</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure blanditiis eum, illum in id perspiciatis cumque laboriosam quis, reiciendis porro laudantium temporibus maxime. Labore ex accusantium corrupti harum commodi.</p>
+                    <p>Este impresionante modelo 3D representa un tiburón esqueleto articulado, diseñado con huesos estilizados y un sistema de uniones que permite mover distintas partes del cuerpo. Su estructura detallada combina estética fosilizada con un toque mecánico, creando una pieza llamativa y dinámica.</p>
                 </div>
 
                 
