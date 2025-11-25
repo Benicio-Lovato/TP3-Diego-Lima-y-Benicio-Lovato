@@ -10,7 +10,7 @@ footer {
     justify-content: space-evenly;
     background-color: black;
     align-items: end;
-    width: 360px;
+    width: 810px;
 }
 
 #dino {
@@ -19,14 +19,14 @@ footer {
 }
 
 #dino img {
-    width: 42px;
-    height: 46px;
+    width: 63px;
+    height: 69px;
     opacity: 1;
 }
 
 #robot img {
-    width: 32px;
-    height: 40px;
+    width: 48px;
+    height: 60px;
     opacity: 1;
 }
 
@@ -38,30 +38,24 @@ footer h1 {
     font-family: 'Inter';
     font-weight: 700;
     font-style: italic;
-    font-size: 18px;
+    font-size: 27px;
     line-height: 100%;
     color: #EDEDED;
-    width: 131px;
-    height: 20px;
+    width: 196.5px;
+    height: 30px;
     opacity: 1;
-    margin: 8px 0 0;
-}
-
-hr {
-    width: 136px;
-    opacity: 1;
-    margin: 0px 4px;
+    margin: 12px 0 0;
 }
 
 #div-der p {
     font-family: 'Inter';
     font-weight: 600;
     font-style: bold;
-    font-size: 5px;
+    font-size: 7.5px;
     line-height: 100%;
     text-align: center;
-    width: 137px;
-    height: 6px;
+    width: 205.5px;
+    height: 9px;
     opacity: 1;
 }
 
@@ -69,25 +63,25 @@ hr {
     font-family: 'Inter';
     font-weight: 600;
     font-style: bold;
-    font-size: 6px;
+    font-size: 9px;
     line-height: 100%;
     margin: 0px;
 }
 
 #div-izq {
     background-color: #1F1F1F;
-    width: 76px;
-    height: 40px;
+    width: 114px;
+    height: 60px;
     opacity: 1;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 #div-der {
     background-color: #1F1F1F;
-    width: 144px;
-    height: 40px;
+    width: 216px;
+    height: 60px;
     opacity: 1;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 footer ul {
@@ -97,16 +91,16 @@ footer ul {
 }
 
 footer ul img {
-    width: 10px;
-    height: 8px;
+    width: 15px;
+    height: 12px;
     opacity: 1;
-    border-width: 1px;
-    margin-left: 9px;
+    border-width: 1.5px;
+    margin-left: 13.5px;
 }
 
 footer li {
     display: flex;
     align-items: center;
-    gap: 2px;
-    height: 13px;
+    gap: 3px;
+    height: 19.5px;
 }

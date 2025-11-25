@@ -14,26 +14,26 @@
 
         <div class="galeria">
             <div class="producto btn-abrir" data-modal="modal-de-producto1" id="producto1">
-                <img src="../img/scooby3d.PNG" alt="Producto">
-                <h2>Scooby</h2>
+                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                <h2>Producto #1</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto2" id="producto2">
-                <img src="../img/lewzrhcy.jpg" alt="Producto">
-                <h2>Lewzrhcy</h2>
+                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                <h2>Producto #2</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto3" id="producto3">
-                <img src="../img/pato3d.jpeg" alt="Producto">
-                <h2>Pato</h2>
+                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                <h2>Producto #3</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto4" id="producto4">
-                <img src="../img/sonic3d.PNG" alt="Producto">
-                <h2>Sonic</h2>
+                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                <h2>Producto #4</h2>
             </div>
         </div>
-        <button><a href="./productos-galeria2.php"><span>></span></a></button>
+        <button><a href="./productos-galeria.php"><span><</span></a></button>
     </main>
 
     <dialog id="modal-de-producto1">
@@ -42,10 +42,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/scooby3d.PNG" alt="Producto">
+                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
                 </div>
 
-                <h1>Scooby</h1>
+                <h1>Producto</h1>
 
                 <div class="boton">
                     <div class="precio">
@@ -79,10 +79,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/lewzrhcy.jpg" alt="Producto">
+                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
                 </div>
 
-                <h1>Lewzrhcy</h1>
+                <h1>Producto</h1>
 
                 <div class="boton">
                     <div class="precio">

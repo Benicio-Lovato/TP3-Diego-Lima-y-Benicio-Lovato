@@ -14,7 +14,6 @@
 
     <div id="div-der">
         <h1>@MauEn3D</h1>
-        <hr>
         <p>Copyright Mauuuuuuuuuuuuuuuuuuuuuuuuuuuu</p>
     </div>
 
