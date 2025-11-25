@@ -14,23 +14,23 @@
 
         <div class="galeria">
             <div class="producto btn-abrir" data-modal="modal-de-producto1" id="producto1">
-                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
-                <h2>Producto #1</h2>
+                <img src="../img/chucky.PNG" alt="Producto">
+                <h2>Chucky</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto2" id="producto2">
-                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
-                <h2>Producto #2</h2>
+                <img src="../img/gato.PNG" alt="Producto">
+                <h2>Gato con capucha</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto3" id="producto3">
-                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
-                <h2>Producto #3</h2>
+                <img src="../img/gizmo.PNG" alt="Producto">
+                <h2>Gizmo</h2>
             </div>
 
             <div class="producto btn-abrir" data-modal="modal-de-producto4" id="producto4">
-                <img src="../img/imagen-ejemplo.PNG" alt="Producto">
-                <h2>Producto #4</h2>
+                <img src="../img/tiburon.PNG" alt="Producto">
+                <h2>Tiburón esqueleto</h2>
             </div>
         </div>
         <button><a href="./productos-galeria.php"><span><</span></a></button>
@@ -42,10 +42,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                    <img src="../img/chucky.PNG" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Chucky<h1>
 
                 <div class="boton">
                     <div class="precio">
@@ -79,10 +79,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                    <img src="../img/gato.PNG" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Gato con capucha</h1>
 
                 <div class="boton">
                     <div class="precio">
@@ -116,10 +116,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                    <img src="../img/gizmo.PNG" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Gizmo</h1>
 
                 <div class="boton">
                     <div class="precio">
@@ -153,10 +153,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                    <img src="../img/tiburon.PNG" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Tiburón esqueleto</h1>
 
                 <div class="boton">
                     <div class="precio">

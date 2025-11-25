@@ -116,10 +116,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                     <img src="../img/pato3d.jpeg" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Pato</h1>
 
                 <div class="boton">
                     <div class="precio">
@@ -153,10 +153,10 @@
             <div id="izq">
 
                 <div class="imagen">
-                    <img src="../img/imagen-ejemplo.PNG" alt="Producto">
+                    <img src="../img/sonic3d.PNG" alt="Producto">
                 </div>
 
-                <h1>Producto</h1>
+                <h1>Sonic</h1>
 
                 <div class="boton">
                     <div class="precio">
