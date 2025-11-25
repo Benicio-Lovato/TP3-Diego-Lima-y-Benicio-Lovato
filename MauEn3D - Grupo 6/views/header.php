@@ -30,12 +30,14 @@
                     </div>
                 </div>
                 <div class="der-m">
-                    <form action=""></form>
-                    <p class="titulo-input-modal">Email / Número de Telefono</p>
-                    <input type="text" class="input-sesion">
+                    <form action="../login_processor.php" method="post">
+                    <p class="titulo-input-modal">Email</p>
+                    <input type="text" class="input-sesion" name="correo">
                     <p class="titulo-input-modal">Contraseña</p>
-                    <input type="password" class="input-sesion">
-                    <button id="ingresar">Ingresar</button>
+                    <input type="password" class="input-sesion" name="contra">
+                    <button type="submit" id="ingresar">Ingresar</button>
+                    </form>
+
                     <button id="google"><img src="../img/google.png" alt=""><p id="Inicia-sesion">Inicia sesión con Google</p></button>
                     <p id="no-tienes-cuenta"> ¿No tienes una cuenta?</p>
                     <button id="registrarse-boton"> <a href="registro.html">Registrate</a></button>

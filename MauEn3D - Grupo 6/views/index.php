@@ -1,3 +1,17 @@
+<?php
+if (isset($_GET['registration_existed'])) {
+    if ($_GET['registration_existed'] === 'true') {
+        echo "<script>alert('DNI,correo o contraseña ya existentes'); window.history.back();</script>";
+    }
+}
+if (isset($_GET['registration_success'])) {
+    if ($_GET['registration_success'] === 'true') {
+        echo "<script>alert('Creación de usuario exitosa');</script>";
+    } else {
+        echo "<script>alert('Error al crear usuario');</script>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
