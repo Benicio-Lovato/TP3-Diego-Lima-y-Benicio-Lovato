@@ -40,7 +40,7 @@
 
                     <button id="google"><img src="../img/google.png" alt=""><p id="Inicia-sesion">Inicia sesión con Google</p></button>
                     <p id="no-tienes-cuenta"> ¿No tienes una cuenta?</p>
-                    <button id="registrarse-boton"> <a href="registro.html">Registrate</a></button>
+                    <button id="registrarse-boton"> <a href="registro.php">Registrate</a></button>
                 </div>
             </div>
             

@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="../css/registro.css">
 </head>
 <body>
-
+<?php include './header.php'; ?>
 <main>
    <h1>Registro</h1>
 
    <div class="registro">
       <div class="imagen">
-         <img src="../img/imagen-ejemplo-registro_.png" alt="imagen ejemplo registro_">
+         <p>productos que pueden llegar a ser de tu intereres</p>
+         <a href="productos-galeria2.php">
+         <img src="../img/chucky.PNG" alt="imagen ejemplo registro_">
+         <img src="../img/gato.PNG" alt="imagen ejemplo registro_">
+         </a>
       </div>
       
       <div class="form">
@@ -38,6 +42,6 @@
       </div>
    </div>
 </main>
-
+<?php include './footer.php'; ?>
 </body>
 </html>

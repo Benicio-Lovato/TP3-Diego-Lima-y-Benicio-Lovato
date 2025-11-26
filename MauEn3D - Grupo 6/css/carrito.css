@@ -159,7 +159,8 @@ main{
 }
 
 #credito-o-debito{
-    width: 43.5%;
+    width: 19.5%;
+    aspect-ratio: 1/1;
     background-color: rgb(85, 85, 85);
     padding: 0px;
     border: solid 3px rgb(103, 103, 103);
@@ -323,7 +324,7 @@ main{
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 19.5px;
+    font-size: 26.5px;
     color: #C5C5C5;
     margin-top: 13.5px;
     margin-bottom: 4.5px;
@@ -332,23 +333,39 @@ main{
 .titulo-input-modal-2{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-size: 6px;
-    width: 127.5%;
+    font-size: 14px;
+    width: 90%;
     color: #dedddd;
     margin-top: 6px;
     margin-bottom: 6px;
+    text-align: center
+
 }
 
 #tarjeta-de-credito{
     margin-top: 31.5px;
     margin-bottom: 4.5px;
     margin-right: 4.5px;
-    width: 165%;
+    width: 80%;
 }
 
-#pagar{
+#pagar-credito{
     margin-top: 9px;
-    width: 127.5%;
+    width: 90.5%;
+    height: 22.5px;
+    border-radius: 12px;
+    font-weight: 700;
+    background-color: #3f3f3f;
+    color: white;
+    border: solid 1.5px black;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10.5px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+#pagar-efectivo{
+    margin-top: 9px;
+    width: 90.5%;
     height: 22.5px;
     border-radius: 12px;
     font-weight: 700;
@@ -376,10 +393,11 @@ main{
 }
 
 #mercado-pago{
-    width: 43.5%;
+    width: 18.5%;
+    aspect-ratio: 1/1;
     background-color: rgb(85, 85, 85);
     padding: 0px;
-    border: solid 3px rgb(103,103,103);
+    border: solid 3px rgb(103, 103, 103);
     border-radius: 13.5px;
 }
 
@@ -393,10 +411,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 30px;
 }
 
 #img-qr-mercado-pago{
-    width: 120%;
+    width: 100%;
     margin-bottom: 13.5px;
     border-radius: 9px;
 }
@@ -404,9 +423,11 @@ main{
 #escanee-el-codigo{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-size: 10.5px;
+    font-size: 17.5px;
     text-align: center;
     color: rgb(237,233,233);
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 #t-mercado-pago{
@@ -415,17 +436,16 @@ main{
     font-family: 'Inter';
     font-weight: 700;
     font-style: Italic;
-    font-size: 19.5px;
+    font-size: 26.5px;
     color: #f6f6f6;
     margin-top: 13.5px;
     margin-bottom: 4.5px;
 }
 
 #telefono-de-mercado-pago{
-    margin-top: 31.5px;
+    margin-top: 51.5px;
     margin-bottom: 4.5px;
-    margin-right: 4.5px;
-    width: 180%;
+    width: 150%;
 }
 
 #t-efectivo{
@@ -445,10 +465,11 @@ main{
 }
 
 #efectivo{
-    width: 60%;
-    background-color: rgb(85,85,85);
+    width: 18.5%;
+    aspect-ratio: 1/1;
+    background-color: rgb(85, 85, 85);
     padding: 0px;
-    border: solid 3px rgb(103,103,103);
+    border: solid 3px rgb(103, 103, 103);
     border-radius: 13.5px;
 }
 
@@ -469,15 +490,16 @@ main{
 .titulo-input-modal-3{
     font-family: "Segoe UI", sans-serif;
     font-weight: 700;
-    font-size: 6px;
+    font-size: 16px;
     color: #dedddd;
     margin-top: 6px;
     margin-bottom: 6px;
-    width: 135%;
+    width: 90%;
+    text-align: center;
 }
 
 .input-sesion2{
-    width: 135%;
+    width: 90%;
     height: 21px;
     border-radius: 12px;
     background-color: #24242400;
@@ -496,141 +518,13 @@ main{
     flex-direction: column;
     align-items: center;
 }
-
-#vaciar-carrito{
-    margin-top: 45px;
-    width: 270px;
-    height: 45px;
-    border-radius: 12px;
-    font-weight: 700;
-    background-color: #b30000;
-    color: white;
-    border: solid 1.5px black;
-    font-family: "Segoe UI", sans-serif;
-    cursor: pointer;
-    text-align: center;
-}
-
 @media (max-width: 900px) {
-    body {
-        width: 100%;
-        background-size: cover;
-        height: auto;
-    }
-
-    main {
-        width: 95%;
-        height: auto;
-        padding: 15px;
-    }
-
-    .compra {
-        width: 95%;
-        height: auto;
-        flex-direction: column;
-        gap: 25px;
-    }
-
-    .productos {
-        width: 90%;
-        height: auto;
-        padding: 15px 0;
-    }
-
-    .medios {
-        height: auto;
-        gap: 25px;
-        width: 100%;
-        align-items: center;
-    }
-
-    .medios button {
-        width: 80%;
-    }
-
-    #titulo img {
-        width: 90%;
-        height: auto;
-    }
+  #mercado-pago,#credito-o-debito,#efectivo{
+    width: 45.5%;
+  }
 }
-
 @media (max-width: 600px) {
-
-    h1 { font-size: 15px; }
-
-    .compra {
-        border-width: 1px;
-        padding: 10px;
-    }
-
-    .productos {
-        width: 100%;
-    }
-
-    .precio {
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
-    }
-
-    .medios button {
-        width: 100%;
-        height: 70px;
-        font-size: 14px;
-        gap: 15px;
-        padding: 10px;
-    }
-
-    .medios button img {
-        width: 50px !important;
-        height: 50px !important;
-    }
-
-    #vaciar-carrito {
-        width: 90%;
-        height: 40px;
-        font-size: 14px;
-    }
-
-    #mercado-pago,
-    #credito-o-debito,
-    #efectivo {
-        width: 90%;
-        border-width: 2px;
-    }
-
-    #centro-modal {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .izq-m, .der-m,
-    .izq-m2, .der-m2,
-    .izq-m3, .der-m3 {
-        width: 90%;
-        margin: 0;
-    }
-
-    #candado,
-    #tarjeta-de-credito,
-    #telefono-de-mercado-pago {
-        width: 100%;
-        margin: 15px 0;
-    }
-
-    #img-qr-mercado-pago {
-        width: 100%;
-    }
-
-    .input-sesion,
-    .input-sesion2,
-    #ingresar,
-    #pagar,
-    #registrarse-boton {
-        width: 100%;
-    }
-
-    #google {
-        width: 100%;
-    }
+  #mercado-pago,#credito-o-debito,#efectivo{
+    width: 65.5%;
+  }
 }

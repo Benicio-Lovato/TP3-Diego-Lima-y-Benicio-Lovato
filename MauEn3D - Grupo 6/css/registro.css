@@ -5,34 +5,42 @@
 }
 
 html{
-   background-image: url(../img/fondo-lineas.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(../img/fondo-lineas.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 225%;
+    width: 810px;
 }
 
 h1{
    font-family: 'Inter';
    font-weight: 600;
-   font-size: 36px;
+   font-size: 16.5px;
    line-height: 100%;
    text-align: center;
 }
 
+h2{
+   text-decoration: underline 1.5px;
+   text-underline-offset: 4.5px;
+}
+
 main{
-   width: 1200px;
-   height: 1295px;
+   width: 810px;
+   height: 800px;
    font-family: 'Inter';
    font-weight: 600;
-   font-size: 40px;
+   font-size: 18px;
    line-height: 100%;
    text-align: center;
-   background-color: #242424;;
+   background-color: #242424;
    color: #C5C5C5;
    display: flex;
    flex-direction: column;
@@ -41,14 +49,12 @@ main{
 }
 
 .imagen{
-   width: 554px;
-   height: 1122px;
    border-radius: 30px;
 }
 
 .imagen img{
-   width: 100%;
-   height: 100%;
+   width: 280px;
+   height: 280px;
    border-radius: 30px;
 }
 
@@ -56,11 +62,13 @@ main{
    display: flex;
    justify-content: space-around;
    align-items: center;
-   width: 1129px;
-   height: 1154px;
+   width: 830;
+   height: 830;
    border-radius: 26px;
    border: 1px #FFFFFF solid;
    padding: 1%;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 .form{
@@ -71,32 +79,34 @@ form{
    display: flex;
    flex-direction: column;
    align-items: center;
-   height: 1154px;
+   height: 700px;
    justify-content: space-around;
+   width: 400px;
 }
 
 .form input{
-   width: 365px;
-   height: 46px;
+   width: 295px;
+   height: 26px;
    border: #FFFFFF 1px solid;
    border-radius: 26px;
    font-family: 'Inter';
    font-weight: 600;
-   font-size: 25px;
+   font-size: 15px;
    padding: 2%;
    text-align: center;
+   margin-bottom: 10px;
 }
 
 .form h2{
    width: 500px;
    height: 47px;
    margin: 0px;
-   font-size: 40px;
+   font-size: 20px;
 }
 
 .form button{
-   width: 365px;
-   height: 115px;
+   width: 300px;
+   height: 100px;
    border-radius: 26px;
    border: #FFFFFF 1px solid;
    cursor: pointer;

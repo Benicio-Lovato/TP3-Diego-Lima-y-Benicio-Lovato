@@ -76,3 +76,35 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+function vaciarCarrito() {
+  localStorage.removeItem("carrito");
+
+  const contenedorCarrito = document.getElementById("lista-carrito");
+  const totalHTML = document.querySelector(".total .precio");
+
+  if (contenedorCarrito) {
+    contenedorCarrito.innerHTML = "<p>Tu carrito está vacío.</p>";
+  }
+  if (totalHTML) {
+    totalHTML.innerText = "$0";
+  }
+}
+
+const boton_credito = document.getElementById("pagar-credito");
+const boton_efectivo = document.getElementById("pagar-efectivo");
+
+if (boton_credito) {
+  boton_credito.addEventListener("click", () => {
+    vaciarCarrito();
+    alert("Ha realizado una orden por el medio de pago: Crédito o Débito");
+  });
+  
+}
+
+if (boton_efectivo) {
+  boton_efectivo.addEventListener("click", () => {
+    vaciarCarrito();
+    alert("Ha realizado una orden por el medio de pago: Efectivo");
+  });
+}
