@@ -510,3 +510,127 @@ main{
     cursor: pointer;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    body {
+        width: 100%;
+        background-size: cover;
+        height: auto;
+    }
+
+    main {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .compra {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .productos {
+        width: 90%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .medios {
+        height: auto;
+        gap: 25px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .medios button {
+        width: 80%;
+    }
+
+    #titulo img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h1 { font-size: 15px; }
+
+    .compra {
+        border-width: 1px;
+        padding: 10px;
+    }
+
+    .productos {
+        width: 100%;
+    }
+
+    .precio {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .medios button {
+        width: 100%;
+        height: 70px;
+        font-size: 14px;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .medios button img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    #vaciar-carrito {
+        width: 90%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #mercado-pago,
+    #credito-o-debito,
+    #efectivo {
+        width: 90%;
+        border-width: 2px;
+    }
+
+    #centro-modal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .izq-m, .der-m,
+    .izq-m2, .der-m2,
+    .izq-m3, .der-m3 {
+        width: 90%;
+        margin: 0;
+    }
+
+    #candado,
+    #tarjeta-de-credito,
+    #telefono-de-mercado-pago {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #img-qr-mercado-pago {
+        width: 100%;
+    }
+
+    .input-sesion,
+    .input-sesion2,
+    #ingresar,
+    #pagar,
+    #registrarse-boton {
+        width: 100%;
+    }
+
+    #google {
+        width: 100%;
+    }
+}

@@ -133,3 +133,49 @@ main {
 .indicadores span.active {
   background: white;
 }
+
+@media (max-width: 900px) {
+  main {
+    padding: 15px;
+  }
+
+  .arriba {
+    flex-direction: column;
+  }
+
+  .carrusel {
+    height: 300px;
+    max-height: 60vw;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  main {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .desc {
+    font-size: 15px;
+  }
+
+  .abajo {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 12px;
+  }
+
+  .carrusel {
+    height: 240px;
+    max-height: 70vw;
+  }
+
+  .boton {
+    font-size: 10px;
+    padding: 4px;
+  }
+}

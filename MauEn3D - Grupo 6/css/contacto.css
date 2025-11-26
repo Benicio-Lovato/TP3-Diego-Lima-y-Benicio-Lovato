@@ -73,3 +73,41 @@ main{
 .medio p{
    font-size: 40px;
 }
+
+@media (max-width: 900px){
+    .medio p{
+        font-size: 32px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px){
+
+    h1{
+        font-size: 15px;
+    }
+
+    main{
+        padding: 15px;
+    }
+
+    .medios{
+        padding: 10px;
+    }
+
+    .medio{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .medio img{
+        width: 150px;
+        max-width: 60%;
+    }
+
+    .medio p{
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+    }
+}
