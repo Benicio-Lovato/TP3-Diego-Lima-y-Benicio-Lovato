@@ -24,61 +24,7 @@ if (isset($_GET['registration_success'])) {
 </head>
 
 <body>
-
-    <head>
-    <link rel="stylesheet" href="../css/header.css">
-    <script src="../js/script.js" defer></script>
-</head>
-<header>
-    <div id="antesDelNav">
-
-    </div>
-    <nav>
-        <ul>
-            <li><a href="carrito.php"><div id="circulo-carrito"><img src="../img/mdi_cart-outline.png" alt="carrito logo"></div></a></li>
-            <li><img src="../img/material-symbols_home-outline-rounded.png" alt="inicio logo"><a href="./index.php"><p>Inicio</p></a></li>
-            <li><img src="../img/icon-park-outline_ad-product.png" alt="productos logo"><a href="./productos-galeria.php"><p>Productos</p></a></li>
-            <li><img src="../img/ic_baseline-phone.png" alt="contacto logo"><a href="./contacto.php"><p>Contacto</p></a></li>
-            <li><img src="../img/material-symbols_login-rounded.png" alt="iniciar sesion logo"><button class="btn-abrir" data-modal="inicio-sesion">iniciar sesion</button></li>
-        </ul>
-
-
-        <dialog id="inicio-sesion">
-            <button id="btn-cerrar"></button>
-            <p id="t-inicio">Inicio de sesión</p>
-            <div id="centro-modal">
-                <div class="izq-m">
-                    <img src="../img/candado.png" alt="" id="candado">
-                    <div class="olvidaste">
-                    <img src="../img/olvidaste.png" alt=""><p>¿Olvidaste tu contraseña?</p>
-                    </div>
-                    <div class="olvidaste">
-                    <img src="../img/soporte.png" alt=""><p>Habla con soporte</p>
-                    </div>
-                </div>
-                <div class="der-m">
-                    <form action="../login_processor.php" method="post">
-                    <p class="titulo-input-modal">Email</p>
-                    <input type="text" class="input-sesion" name="correo">
-                    <p class="titulo-input-modal">Contraseña</p>
-                    <input type="password" class="input-sesion" name="contra">
-                    <button type="submit" id="ingresar">Ingresar</button>
-                    </form>
-
-                    <button id="google"><img src="../img/google.png" alt=""><p id="Inicia-sesion">Inicia sesión con Google</p></button>
-                    <p id="no-tienes-cuenta"> ¿No tienes una cuenta?</p>
-                    <button id="registrarse-boton"> <a href="registro.php">Registrate</a></button>
-                </div>
-            </div>
-            
-        </dialog>
-    </nav>
-
-    <div id="titulo">
-        <img src="../img/MauEn3D.png" alt="Logo MauEn3D">
-    </div>
-        
-</header>
+<?php include './header.php'; ?>
 
     <main>
         <h1>"Tu idea, en 3 dimensiones"</h1>

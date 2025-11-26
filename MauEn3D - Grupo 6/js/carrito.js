@@ -91,20 +91,31 @@ function vaciarCarrito() {
   }
 }
 
-const boton_credito = document.getElementById("pagar-credito");
-const boton_efectivo = document.getElementById("pagar-efectivo");
+document.addEventListener("DOMContentLoaded", () => {
+  const boton_credito = document.getElementById("pagar-credito");
+  const boton_efectivo = document.getElementById("pagar-efectivo");
 
-if (boton_credito) {
-  boton_credito.addEventListener("click", () => {
-    vaciarCarrito();
-    alert("Ha realizado una orden por el medio de pago: Crédito o Débito");
-  });
-  
-}
+  if (boton_credito) {
+    boton_credito.addEventListener("click", () => {
+      const carrito = cargarCarrito();
+      if (carrito.length > 0) {
+        alert("Ha realizado una orden por el medio de pago: Crédito o Débito");
+        vaciarCarrito();
+      } else {
+        alert("No hay productos en el carrito para pagar.");
+      }
+    });
+  }
 
-if (boton_efectivo) {
-  boton_efectivo.addEventListener("click", () => {
-    vaciarCarrito();
-    alert("Ha realizado una orden por el medio de pago: Efectivo");
-  });
-}
+  if (boton_efectivo) {
+    boton_efectivo.addEventListener("click", () => {
+      const carrito = cargarCarrito();
+      if (carrito.length > 0) {
+        alert("Ha realizado una orden por el medio de pago: Efectivo");
+        vaciarCarrito();
+      } else {
+        alert("No hay productos en el carrito para pagar.");
+      }
+    });
+  }
+});

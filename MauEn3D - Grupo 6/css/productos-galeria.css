@@ -225,3 +225,9 @@ button a, button a:hover{
     border-radius: 20.25px;
     max-width: 618.75px;
 }
+@media (max-width: 1000px) {
+  html{
+   background-image: url(../img/fondo-lineas.png);
+   background-repeat: no-repeat;
+  }
+}

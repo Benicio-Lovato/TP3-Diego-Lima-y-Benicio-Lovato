@@ -518,6 +518,12 @@ main{
     flex-direction: column;
     align-items: center;
 }
+@media (max-width: 1000px) {
+  html{
+   background-image: url(../img/fondo-lineas.png);
+    background-repeat: no-repeat;
+  }
+}
 @media (max-width: 900px) {
   #mercado-pago,#credito-o-debito,#efectivo{
     width: 45.5%;

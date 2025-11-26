@@ -43,6 +43,7 @@ main{
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
 }
 
 .medios{
@@ -52,8 +53,10 @@ main{
     height: 700px;
     border-radius: 12px;
     border: 1.5px #FFFFFF solid;
+    padding: 121.5%;
     padding: 1.5%;
     text-align: center;
+    margin: auto;
 }
 
 .medio{
@@ -73,8 +76,18 @@ main{
 .medio p{
    font-size: 40px;
 }
-
+@media (max-width: 1000px) {
+  html{
+   background-image: url(../img/fondo-lineas.png);
+    background-repeat: no-repeat;
+  }
+}
 @media (max-width: 900px){
+    .medios{
+     padding: 20px; 
+     margin-left: auto;
+     margin-right: auto;   
+    }
     .medio p{
         font-size: 32px;
         text-align: left;

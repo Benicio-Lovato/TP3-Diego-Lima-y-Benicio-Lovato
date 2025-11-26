@@ -133,7 +133,12 @@ main {
 .indicadores span.active {
   background: white;
 }
-
+@media (max-width: 1000px) {
+  html{
+   background-image: url(../img/fondo-lineas.png);
+    background-repeat: no-repeat;
+  }
+}
 @media (max-width: 900px) {
   main {
     padding: 15px;
@@ -146,6 +151,28 @@ main {
   .carrusel {
     height: 300px;
     max-height: 60vw;
+  }
+  .desc{
+    margin-top: 30px;
+    width: 500px;
+    height: auto;
+  }
+  .abajo{
+    font-size: 15px;
+    height: auto;
+  }
+}
+@media (max-width: 780px){
+  .desc{
+    margin-top: 30px;
+    width: 600px;
+    height: auto;
+  }
+  .abajo{
+    font-size: 12px;
+    height: auto;
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -161,6 +188,7 @@ main {
 
   .desc {
     font-size: 15px;
+    width: 50%;
   }
 
   .abajo {
