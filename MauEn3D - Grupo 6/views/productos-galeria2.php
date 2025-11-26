@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - MauEn3D</title>
     <link rel="stylesheet" href="../css/productos-galeria.css">
+    <link rel="icon" href="../img/iconoMauEn3D.jpg">
+    <script src="../js/carrito.js" defer></script>
 </head>
 <body>
     

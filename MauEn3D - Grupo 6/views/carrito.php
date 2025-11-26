@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Comprar - MauEn3D</title>
    <link rel="stylesheet" href="../css/carrito.css">
-   <script src="../js/script.js" defer></script>
+   <script src="../js/carrito.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
       <div class="compra">
          <div class="productos">
             <h2>Productos</h2>
-            <!-- <div class="carrito">Aca va el carrito en JS</div> -->
+            <div id="lista-carrito"></div>
             <div class="total">
                <h3>Total:</h3>
                <div class="precio">$$$$$$</div>
@@ -32,6 +32,8 @@
                   alt="visa/mastercard logo">Crédito o Débito</button>
             <button id="efe" class="btn-abrir" data-modal="efectivo"><img src="../img/vaadin_cash.png"
                   alt="efectivo logo">Efectivo</button>
+            <button id="vaciar-carrito">Vaciar carrito</button>
+                  
          </div>
       </div>
    </main>
